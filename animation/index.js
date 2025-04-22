@@ -11,11 +11,11 @@
 
 // });
 
-icon = document.querySelector(".nav-icon1");
-el1 = document.querySelector(".notification-tab");
-el2 = document.querySelector(".nav-menu");
-searchicon = document.querySelector(".nav-icon2");
-search = document.querySelector(".nav-search");
+const icon = document.querySelector(".nav-icon1");
+const el1 = document.querySelector(".notification-tab");
+const el2 = document.querySelector(".nav-menu");
+const searchicon = document.querySelector(".nav-icon2");
+const search = document.querySelector(".nav-search");
 
 icon.addEventListener("click", () => {
   el1.classList.toggle("forward");
